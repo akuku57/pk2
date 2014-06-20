@@ -170,9 +170,7 @@ static void LoadData(){
 
 class MainFrame extends JFrame{
 	
-	/**
-	 * 
-	 */
+	
 	private static final long serialVersionUID = 1L;
 	//private int posilek_count;
 	static int DisplayedDay;
@@ -204,7 +202,7 @@ class MainFrame extends JFrame{
 	
 	public MainFrame(){
 		
-		super("Jedzonko Dupcio");
+		super("Kalorie");
 		setSize(szerokosc, wysokosc);
 		setLayout(null);
 		setResizable(false);
@@ -303,6 +301,7 @@ class MainFrame extends JFrame{
 		setJMenuBar(menu);
 		
 		upDate();		
+	
 	}
 
 	class MenuNewFrameActionClass implements ActionListener{
