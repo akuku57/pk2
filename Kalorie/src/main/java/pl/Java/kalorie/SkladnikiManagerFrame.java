@@ -96,8 +96,8 @@ public class SkladnikiManagerFrame extends JFrame{
 		B.setColumns(4);
 		T.setColumns(4);
 		
-		usun=new JButton("Usu� sk�adnik");
-		zmien=new JButton("Aktualizuj sk�adnik");
+		usun=new JButton("Usuń składnik");
+		zmien=new JButton("Aktualizuj składnik");
 		labelN=new JLabel("Nazwa");
 		labelW=new JLabel("W");
 		labelB=new JLabel("B");
