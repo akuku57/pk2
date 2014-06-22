@@ -9,6 +9,9 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
+
+// wzorzec projektowy - Data Access Object
+
 public class Baza {
 
 	public static final String DRIVER = "org.sqlite.JDBC";
@@ -18,7 +21,7 @@ public class Baza {
     public static int ID_dzien;
     private Connection conn;
     private Statement stat;
-	
+    
 	public Baza(){
 		InitDataBaseConnection();
 		ID_potrawa=1;

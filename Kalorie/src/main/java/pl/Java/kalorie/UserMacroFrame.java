@@ -90,10 +90,10 @@ public class UserMacroFrame extends JFrame{
 			}
 	});
 		
-		label1 = new JLabel("Procentowy rozk�ad wartosci od�ywczych");
-		label2 = new JLabel("W�glowodany");
-		label3 = new JLabel("Bia�ko");
-		label4 = new JLabel("T�uszcze");
+		label1 = new JLabel("Procentowy rozkład wartosci odżywczych");
+		label2 = new JLabel("Węglowodany");
+		label3 = new JLabel("Białko");
+		label4 = new JLabel("Tłuszcze");
 		field1 = new JTextField();
 		field1.setEditable(false);
 		field2 = new JTextField();
@@ -132,7 +132,7 @@ public class UserMacroFrame extends JFrame{
 		});
 		
 		poleM1= new JTextField();poleM5= new JTextField();
-		poleM1.setText(" Makrosk�adniki:");      	
+		poleM1.setText(" Makroskładniki:");      	
 		W.setText(""+macro.W);    		
 		B.setText(""+macro.B);    		
 		T.setText(""+macro.T);    		

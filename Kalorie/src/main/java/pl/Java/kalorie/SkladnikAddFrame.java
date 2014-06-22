@@ -42,7 +42,7 @@ public class SkladnikAddFrame extends JFrame {
 	
 	public SkladnikAddFrame(){
 		
-		super("Dodaj nowy sk�adnik");
+		super("Dodaj nowy składnik");
 		setSize(szerokosc, wysokosc);
 		setAlwaysOnTop(true);
 		Toolkit kit = Toolkit.getDefaultToolkit();
@@ -114,7 +114,7 @@ public class SkladnikAddFrame extends JFrame {
         };
         
 		pole1=new JTextField(13);pole2=new JTextField(4);pole3=new JTextField(4);pole4=new JTextField(4);
-		label1=new JLabel("Nazwa sk�adnika:");
+		label1=new JLabel("Nazwa składnika:");
 		label2= new JLabel("W:");
 		label3=new JLabel("B:");
 		label4= new JLabel("T:");

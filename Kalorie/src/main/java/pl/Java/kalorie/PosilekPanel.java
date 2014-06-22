@@ -9,7 +9,7 @@ import java.awt.event.MouseListener;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
-
+// wzorzec fasada
 class PosilekPanel extends JPanel {
 	
 	/**

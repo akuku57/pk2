@@ -280,9 +280,9 @@ class MainFrame extends JFrame{
 		JMenuBar menu = new JMenuBar();
 		JMenu Ustawienia = new JMenu("Ustawienia");
 		JMenu plik = new JMenu ("Plik");
-		JMenuItem zarzadzajSkladnikami = new JMenuItem("Zarz�dzaj sk�adnikami");
+		JMenuItem zarzadzajSkladnikami = new JMenuItem("Zarządzaj składnikami");
 		JMenuItem edytujMacro = new JMenuItem("Edytuj dzienne zapotrzebowanie");
-		JMenuItem zakoncz = new JMenuItem("Zako�cz");
+		JMenuItem zakoncz = new JMenuItem("Zakończ");
 		zarzadzajSkladnikami.addActionListener(new MenuNewFrameActionClass(skladnikimanagerframe));
 		edytujMacro.addActionListener(new MenuNewFrameActionClass(usermacroframe));
 		zakoncz.addActionListener(new ActionListener(){
@@ -415,7 +415,7 @@ class DateControlPanel extends JPanel{
 		previous = new JButton("Poprzedni");
 		next = new JButton("Nastepny");
 		label = new JLabel();
-		usun= new JButton("Usu�");
+		usun= new JButton("Usuń");
 		
 		previous.addActionListener(new ActionListener(){
 			
