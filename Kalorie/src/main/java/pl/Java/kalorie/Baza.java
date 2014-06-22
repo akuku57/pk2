@@ -9,8 +9,9 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-
+//========================================
 // wzorzec projektowy - Data Access Object
+//========================================
 
 public class Baza {
 

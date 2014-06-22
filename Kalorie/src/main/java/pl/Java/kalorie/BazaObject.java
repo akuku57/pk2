@@ -1,9 +1,12 @@
 package pl.Java.kalorie;
 
+//==============================
+//wzorzec projektowy - Iterator
+//==============================
 
 public class BazaObject {
 
-	static Skladnik[] skladniki ;   // tu bedzie klasa baza skladniki z iteratorem 
+	static Skladnik[] skladniki ;   
 	public static IteratorSkladnikClass IteratorSkladniki;
 	public static int arraySizeSkladniki;
 	public static int CountSkladniki;
